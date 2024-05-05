@@ -3,7 +3,8 @@ namespace Grains
 open System.Threading.Tasks
 open HelloWorldInterfaces
 
-type HelloGrain() = 
+[<CompiledName "HelloGrain">]
+type HelloGrain() =
     inherit Orleans.Grain()
     interface IHelloGrain with
         override this.SayHello(greeting:string) =

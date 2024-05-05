@@ -8,7 +8,7 @@
     <Compile Include="HelloGrain.fs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\HelloWorldInterfaces\HelloWorldInterfaces.csproj" />
+    <ProjectReference Include="..\HelloWorldInterfaces\HelloWorldInterfaces.fsproj" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.Orleans.Sdk" Version="8.0.0" />
